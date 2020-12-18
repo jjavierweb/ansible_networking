@@ -64,7 +64,9 @@ As mentioned above, roles are basically a playbook devided into multiple files a
 ```
 
 In the playbook we have variables and task, in roles we have the same things, they are just devided into different files
+
 From the above playbook we are going to move the vars data into the role/dns_update/vars/main.yml
+
 From the above playbook we are going to move the tasks into the role/dns_update/tasks/main.yml
 
 After performing this changes, we go back to the playbook and change it a bit, this time, we just need to include the role into it, and it will look like this:
