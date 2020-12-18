@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Getting started with Ansible for Network Automation
 
-You can use the [editor on GitHub](https://github.com/jjavierweb/ansible_networking/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In this documment we will find links to other documents that will have a more detiled exaplanation as to how use the ansible framework to automate network devices and configurations
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We are also making the following assumptions:
 
-### Markdown
+1. You are using linux or mac os
+2. you are running python 3.8.x or higher
+3. You have some knowledge about YAML file structure
+4. You are familiar with linux shell
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## List of topics
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jjavierweb/ansible_networking/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* [Folder Structure](./Folder_structure.md)
+* [Installing Ansible wiht Pyhton3-pip](./Ansible_install.md)
+* [Ansible Config File](./Ansible_config.md)
+* [Ansible vault](./Ansible_vault.md)
+* [Inventory Files](./Ansible_inventory.md)
+* [Building Playbooks](./Ansible_playbooks.md)
+* [Ansible Roles](./Ansible_roles.md)
