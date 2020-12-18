@@ -11,7 +11,7 @@ We are also making the following assumptions:
 
 ## List of topics
 
-* [Folder Structure](./Folder_structure.md)
+* [Folder Structure](blob/Folder_structure.md)
 * [Installing Ansible wiht Pyhton3-pip](./Ansible_install.md)
 * [Ansible Config File](./Ansible_config.md)
 * [Ansible vault](./Ansible_vault.md)
